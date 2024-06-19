@@ -4,11 +4,12 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 
-        h1, p, div {
+        body, h1, p, div {
+            user-select: none; /* impede a seleção de texto */
+            cursor: default;   /* define o cursor padrão */
             text-align: center;
         }
-
-        /*AQUII*/
+        
         .section-anchor {
             position: relative;
         }
@@ -20,7 +21,6 @@
             margin-top: -100px; /* ajuste este valor conforme necessário */
             visibility: hidden;
         }
-            /*AQUII*/
         
         .w3-display-container {
             position: relative;
