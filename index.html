@@ -8,6 +8,20 @@
             text-align: center;
         }
 
+        /*AQUII*/
+        .section-anchor {
+            position: relative;
+        }
+
+        .section-anchor::before {
+            content: "";
+            display: block;
+            height: 100px; /* ajuste este valor conforme necessário */
+            margin-top: -100px; /* ajuste este valor conforme necessário */
+            visibility: hidden;
+        }
+            /*AQUII*/
+        
         .w3-display-container {
             position: relative;
             width: 100%;
@@ -195,7 +209,7 @@
     <div class="w3-content w3-padding" style="max-width:1564px">
 
         <!-- Sobre Nós -->
-        <div class="w3-container w3-padding-32" id="about">
+        <div class="w3-container w3-padding-32 section-anchor" id="about">
             <h3 class="main-title">Sobre Nós</h3>
             <p>Bem-vindo à ProMad, o seu destino de confiança para escadas de alta qualidade e design impecável.</p>
             <p>Especializados exclusivamente na criação de escadas, dedicamo-nos a transformar espaços com soluções que combinam funcionalidade,</p>
@@ -209,7 +223,7 @@
         </div>
 
         <!-- Escadas -->
-        <div class="w3-container w3-padding-32" id="projects">
+        <div class="w3-container w3-padding-32 section-anchor" id="projects">
             <h3 class="main-title">Produtos</h3>
         </div>
 
@@ -256,7 +270,7 @@
         </div>
 
         <!-- Contact Section -->
-        <div class="w3-container w3-padding-32" id="contactar">
+        <div class="w3-container w3-padding-32 section-anchor" id="contactar">
             <h3 class="main-title">Contactos</h3>
             <p>Estamos sempre prontos para ouvir suas ideias e transformar seus sonhos em realidade.</p>
             <p>Se está planeando uma nova construção ou renovar o seu espaço atual, a ProMad está aqui para ajudar.</p>
