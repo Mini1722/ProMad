@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
     <style>
@@ -145,7 +145,14 @@
             width: 100%;
             height: auto;
         }
+
+        /* Novo estilo para ajustar o padding das seções */
+        .section-anchor {
+            padding-top: 100px; /* ajuste este valor conforme necessário */
+            margin-top: -100px; /* ajuste este valor conforme necessário */
+        }
     </style>
+
     <title>ProMad</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -181,7 +188,6 @@
     </div>
 
     <!-- Header -->
-
     <header class="w3-display-container w3-content w3-wide" style="max-width:100%;" id="home">
         <img class="w3-image" src="/header.jpg" alt="Architecture"><!-- localização da foto do header -->
         <div class="w3-display-middle w3-margin-top w3-center">
@@ -193,88 +199,80 @@
     <div class="w3-content w3-padding" style="max-width:1564px">
 
         <!-- Sobre Nós -->
-        <div class="w3-container w3-padding-32" id="about">
+        <div class="w3-container w3-padding-32 section-anchor" id="about">
             <h3 class="main-title">Sobre Nós</h3>
             <p>Bem-vindo à ProMad, o seu destino de confiança para escadas de alta qualidade e design impecável.</p>
             <p>Especializados exclusivamente na criação de escadas, dedicamo-nos a transformar espaços com soluções que combinam funcionalidade,</p>
             <p>segurança e estética refinada.</p>
-            <h3 class="secondary-title">Nossa História</h3>
-            <p>Fundada em [Ano de Fundação], a ProMad surgiu da paixão pela arte da carpintaria e do desejo de criar peças que não apenas conectam andares,mas também se destacam como elementos de design sofisticados.</p>
-            <p>Com anos de experiência no setor, nossa equipe é composta por artesãos habilidosos que compartilham um compromisso inabalável com a excelência.</p>
-            <h3 class="secondary-title">Nossa Missão</h3>
-            <p>A nossa missão é projetar e construir escadas que superem as expectativas dos nossos clientes. Cada projeto é uma oportunidade para inovar e personalizar, garantindo que cada escada seja única e adequada ao estilo e às necessidades de cada cliente.</p>
-            <p>Desde o conceito inicial até a instalação final, trabalhamos de perto com nossos clientes para assegurar que cada detalhe seja perfeito.</p>
+            <p>Descubra como nossas escadas podem elevar o estilo e a praticidade do seu ambiente.</p>
         </div>
 
         <!-- Escadas -->
-        <div class="w3-container w3-padding-32" id="projects">
+        <div class="w3-container w3-padding-32 section-anchor" id="projects">
             <h3 class="main-title">Produtos</h3>
-        </div>
-
-        <div class="w3-row-padding">
-            <div class="w3-col l3 m6 w3-margin-bottom">
-                <div class="w3-display-container image-container">
-                    <div class="w3-display-topleft w3-black w3-padding">Escadas Retas</div>
-                    <img src="/escadareta.png" alt="House">
+            <div class="w3-row-padding">
+                <div class="w3-col l3 m6">
+                    <div class="w3-display-container">
+                        <div class="image-container">
+                            <img src="/escada1.jpg" alt="Escada 1"><!-- localização da imagem -->
+                        </div>
+                        <div class="w3-display-topleft w3-black w3-padding">Escada 1</div>
+                    </div>
                 </div>
-            </div>
-            <div class="w3-col l3 m6 w3-margin-bottom">
-                <div class="w3-display-container image-container">
-                    <div class="w3-display-topleft w3-black w3-padding">Escada Reta com corrimão</div>
-                    <img src="/escadaretacorrimao.png" alt="House">
+                <div class="w3-col l3 m6">
+                    <div class="w3-display-container">
+                        <div class="image-container">
+                            <img src="/escada2.jpg" alt="Escada 2"><!-- localização da imagem -->
+                        </div>
+                        <div class="w3-display-topleft w3-black w3-padding">Escada 2</div>
+                    </div>
                 </div>
-            </div>
-            <div class="w3-col l3 m6 w3-margin-bottom">
-                <div class="w3-display-container image-container">
-                    <div class="w3-display-topleft w3-black w3-padding">Escada em L</div>
-                    <img src="/escadaL.png" alt="House">
+                <div class="w3-col l3 m6">
+                    <div class="w3-display-container">
+                        <div class="image-container">
+                            <img src="/escada3.jpg" alt="Escada 3"><!-- localização da imagem -->
+                        </div>
+                        <div class="w3-display-topleft w3-black w3-padding">Escada 3</div>
+                    </div>
                 </div>
-            </div>
-        </div>
-
-        <div class="w3-row-padding">
-            <div class="w3-col l3 m6 w3-margin-bottom">
-                <div class="w3-display-container image-container">
-                    <div class="w3-display-topleft w3-black w3-padding">Escada em U</div>
-                    <img src="/escadaU.png" alt="House">
-                </div>
-            </div>
-            <div class="w3-col l3 m6 w3-margin-bottom">
-                <div class="w3-display-container image-container">
-                    <div class="w3-display-topleft w3-black w3-padding">Escada em U com corrimão</div>
-                    <img src="/escadaUcorrimao.png" alt="House">
-                </div>
-            </div>
-            <div class="w3-col l3 m6 w3-margin-bottom">
-                <div class="w3-display-container image-container">
-                    <div class="w3-display-topleft w3-black w3-padding">Escada com Resguardo</div>
-                    <img src="/escadaResguardo.png" alt="House">
+                <div class="w3-col l3 m6">
+                    <div class="w3-display-container">
+                        <div class="image-container">
+                            <img src="/escada4.jpg" alt="Escada 4"><!-- localização da imagem -->
+                        </div>
+                        <div class="w3-display-topleft w3-black w3-padding">Escada 4</div>
+                    </div>
                 </div>
             </div>
         </div>
 
-        <!-- Contact Section -->
-        <div class="w3-container w3-padding-32" id="contactar">
+        <!-- Contactos -->
+        <div class="w3-container w3-padding-32 section-anchor" id="contactar">
             <h3 class="main-title">Contactos</h3>
-            <p>Estamos sempre prontos para ouvir suas ideias e transformar seus sonhos em realidade.</p>
-            <p>Se está planeando uma nova construção ou renovar o seu espaço atual, a ProMad está aqui para ajudar.</p>
-            <p>Entre em contato conosco para um orçamento gratuito e descubra como podemos criar a escada perfeita.</p>
+            <p>Vamos começar o seu projeto. Entre em contacto connosco:</p>
             <form action="/action_page.php" target="_blank">
-                <input class="w3-input w3-border" type="text" placeholder="Nome" required name="Nome">
-                <input class="w3-input w3-section w3-border" type="text" placeholder="Email" required name="Email">
-                <input class="w3-input w3-section w3-border" type="text" placeholder="Assunto" required name="Assunto">
-                <input class="w3-input w3-section w3-border" type="text" placeholder="Comentário" required name="Comentário">
-                <button class="w3-button w3-black w3-section" type="submit">
-                    <i class="fa fa-paper-plane"></i> Enviar
-                </button>
+                <div class="w3-section">
+                    <label>Nome</label>
+                    <input class="w3-input w3-border" type="text" name="Nome" required>
+                </div>
+                <div class="w3-section">
+                    <label>Email</label>
+                    <input class="w3-input w3-border" type="text" name="Email" required>
+                </div>
+                <div class="w3-section">
+                    <label>Mensagem</label>
+                    <input class="w3-input w3-border" type="text" name="Mensagem" required>
+                </div>
+                <button type="submit" class="w3-button w3-black w3-margin-bottom">Enviar</button>
             </form>
         </div>
-        <!-- End page content -->
+
+        <!-- Fim da página -->
     </div>
 
-    <!-- Footer -->
-    <footer class="w3-center w3-padding-16">
-        <p>ProMad &copy; 2024</p>
+    <!-- Adicionar um footer -->
+    <footer class="w3-center w3-black w3-padding-16">
+        <p>ProMad</p>
     </footer>
 
 </body>
